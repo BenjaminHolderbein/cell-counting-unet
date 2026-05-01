@@ -8,6 +8,8 @@ The course target was a mean absolute error (MAE) below 3 cells per image.
 Final result: **MAE ~1.4** on the held-out validation set, beating the
 target by ~2x and replacing hand counting on the 1,000-image test set.
 
+Full write-up: [report.pdf](report.pdf).
+
 ![Input image with ground-truth mask overlay](assets/training_overlay.png)
 ![Test image with predicted mask overlay](assets/prediction_overlay.png)
 
@@ -47,6 +49,7 @@ selected on count-MAE was the best submission, not the early-stopped one.
 
 ```
 cell_counting.ipynb   Single notebook: data loading, UNet1/2/3, training, eval, submission CSV
+report.pdf            Course write-up
 assets/               Example input+mask, prediction, training curves
 LICENSE               MIT
 ```
